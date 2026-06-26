@@ -1,0 +1,14 @@
+{
+  "name": "live-coding",
+  "version": "1.0.0",
+  "description": "Live coding demo with TypeScript and GitHub Actions CI",
+  "main": "dist/index.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "license": "ISC"
+}
